@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+header{
+    height: 8vh;
+}
+.logo{
+    max-width: 100px;
+    margin-left: 25px;
+}
+.fondo-carrousel{
+    filter: contrast(40%);
+    filter: brightness(30%);
+    margin-top: -60px;
+}
+main{
+    padding: 10rem,0;
+}
+.carouselPrincipal{
+    position: relative;
+    top:100px;
+    z-index: 0;
+}
+#overlay{
+    text-align: end;
+    justify-content: center;
+    position:absolute;
+    right: 2%;
+    height: auto;
+    bottom: 150px;
+    z-index: 1;
+    color:white;
+}
+#oradores{
+    padding-top: 6rem;
+}
+#oradores>p,h2{
+    position: inherit;
+    text-align: center;
+    margin-bottom: 2px;
+}
+#oradores>p{
+    margin-top: 5px;
+}
+#donde{
+    padding-top: 6rem;
+}
+#participa{
+    padding-top: 6rem;
+}
+#participa>p,h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+#menufoot{
+    margin-top: 6rem;
+    padding: 20px;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg,rgba(27,55,67,1)0%,rgba(31,82,113,1)100%);
+}
+
+div.tabla-precio {
+    border: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    
+  }
+  
+  div.tabla-precio ul li {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 14px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: #868686;
+      line-height: 26px;
+  }
+  div.tabla-precio ul li:before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    font-size: 20px;
+    color: green;
+    
+  }
+  div.tabla-precio h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size:16px;
+    text-transform: uppercase;
+  }
+  div.tabla-precio p.numero {
+    color: #000000;
+    margin: 20px 0;
+  }
+  
+  
+  
+  
+  div.extras div.orden {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  div.extras div.orden input {
+  margin: 10px 0 0 0 ;    
+  }
+  
+  .card {
+    display: inline-block;
+  }
+
+  .btn-codo {
+    background-color: #97c93e;
+    color: white;
+  }
+  
+  .btn-codo:hover {
+    background-color: #82ad36;
+  } 
